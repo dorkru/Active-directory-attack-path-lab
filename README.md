@@ -7,8 +7,6 @@ The diagram above shows shortest attack path from a compromised user account to 
 It highlights key relationships and misconfigurations that allow privilege escalation within Active Directory environment.
 
 
-
-
 Overview
 
 This project demonstrates a simulated compromise of an Active Directory environment, starting from initial access to full domain compromise using common red team techniques.
@@ -20,7 +18,7 @@ Lab Environment
 - Kali Linux
 - Tools: BloodHound, PowerView, Rubeus, Mimikatz, Impacket
 
-Attack Path Summary
+Attack Path Summary:
 
 1. Initial access via compromised Windows client
 2. Domain enumeration using PowerView and BloodHound
@@ -30,7 +28,7 @@ Attack Path Summary
 6. Privilege escalation to Domain Admin
 7. Domain compromise and persistence (Golden Ticket)
 
-Key Techniques
+Key Techniques:
 
 - Active Directory enumeration
 - AS-REP Roasting
@@ -38,7 +36,7 @@ Key Techniques
 - Lateral movement
 - Golden Ticket attack
 
-Key Takeaways
+Key Takeaways:
 
 - Misconfigurations in Active Directory can lead to full domain compromise
 - Attack paths are more important than single vulnerabilities
@@ -47,3 +45,22 @@ Key Takeaways
 Disclaimer
 
 This project was conducted in a controlled lab environment for educational purposes only.
+
+
+## Attack Scenario:
+
+An attacker gains initial access to a domian machine and begins enumeration of Active Directory environment.
+Misconfigurations allow credential extraction through AS-REP roasting which leads to lateral movement and eventual domain compromise.
+
+## Detection opportunities:
+
+- detection of abnormal Kerberos requests (AS-REP roasting)
+- monitoring lateral movement via PsExec
+- suspicious use of privileged accounts
+
+## Skills demonstrated:
+
+- Active Directory enumeration
+- credential access techniques
+- lateral movement
+- privilege escalation
