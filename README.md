@@ -64,3 +64,11 @@ Misconfigurations allow credential extraction through AS-REP roasting which lead
 - credential access techniques
 - lateral movement
 - privilege escalation
+
+## Impact
+
+Successful exploitation of misconfigurations allowed full domain compromise, demonstrationg the critical importance of proper Active Directory hardening.
+
+
+## Author
+This project is part of my hands-on cybersecurity learning focused on Active Directory and red team techniques.
