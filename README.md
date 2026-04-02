@@ -3,7 +3,7 @@
 Attack Path Overview
 ![Attack Path](attack-path.jpg)
 
-The diagram above shows shortest attack path from a compromised user account to Domain Admin privileges, identified using Bloodhound.
+The diagram above shows shortest attack path from a compromised user account to Domain Admin privileges, identified using BloodHound.
 It highlights key relationships and misconfigurations that allow privilege escalation within Active Directory environment.
 
 
@@ -49,8 +49,8 @@ This project was conducted in a controlled lab environment for educational purpo
 
 ## Attack Scenario:
 
-An attacker gains initial access to a domian machine and begins enumeration of Active Directory environment.
-Misconfigurations allow credential extraction through AS-REP roasting which leads to lateral movement and eventual domain compromise.
+An attacker gains initial access to a domain-joined machine and begins enumerating the Active Directory environment.
+Misconfigurations allow credential extraction through AS-REP roasting, which leads to lateral movement and eventual domain compromise.
 
 ## Detection opportunities:
 
@@ -67,7 +67,7 @@ Misconfigurations allow credential extraction through AS-REP roasting which lead
 
 ## Impact
 
-Successful exploitation of misconfigurations allowed full domain compromise, demonstrationg the critical importance of proper Active Directory hardening.
+Successful exploitation of these misconfigurations allowed full domain compromise, demonstrating the critical importance of proper Active Directory hardening.
 
 
 ## Author
