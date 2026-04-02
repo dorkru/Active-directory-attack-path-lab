@@ -1,5 +1,8 @@
 Active Directory Attack Path – Red Team Lab
 
+## Attack Path Overview
+![Attack Path](attack-path.jpg)
+
 Overview
 
 This project demonstrates a simulated compromise of an Active Directory environment, starting from initial access to full domain compromise using common red team techniques.
