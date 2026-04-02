@@ -3,6 +3,12 @@ Active Directory Attack Path – Red Team Lab
 ## Attack Path Overview
 ![Attack Path](attack-path.jpg)
 
+The diagram above shows shortest attack path from a compromised user account to Domain Admin privileges, identified using Bloodhound.
+It highlights key relationships and misconfigurations that allow privilege escalation within Active Directory environment.
+
+
+
+
 Overview
 
 This project demonstrates a simulated compromise of an Active Directory environment, starting from initial access to full domain compromise using common red team techniques.
