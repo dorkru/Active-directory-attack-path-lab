@@ -1,6 +1,6 @@
 ### **Active Directory Attack Path – Red Team Lab**
 
-# **Attack Path Overview
+Attack Path Overview
 ![Attack Path](attack-path.jpg)
 
 The diagram above shows shortest attack path from a compromised user account to Domain Admin privileges, identified using Bloodhound.
